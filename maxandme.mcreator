@@ -1,9 +1,28 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Warhammer",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "warhammer"
+    },
+    {
+      "name": "RecWarhammer",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_warhammer"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.maxandme.warhammer": "Warhammer"
+    }
   },
   "foldersRoot": {
     "name": "~",
