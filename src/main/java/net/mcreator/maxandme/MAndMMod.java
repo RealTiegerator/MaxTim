@@ -29,6 +29,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.maxandme.init.MAndMModTabs;
 import net.mcreator.maxandme.init.MAndMModItems;
 import net.mcreator.maxandme.init.MAndMModFeatures;
+import net.mcreator.maxandme.init.MAndMModEntities;
 import net.mcreator.maxandme.init.MAndMModBlocks;
 
 import java.util.function.Supplier;
@@ -49,6 +50,7 @@ public class MAndMMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		MAndMModBlocks.REGISTRY.register(bus);
 		MAndMModItems.REGISTRY.register(bus);
+		MAndMModEntities.REGISTRY.register(bus);
 
 		MAndMModFeatures.REGISTRY.register(bus);
 

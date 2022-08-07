@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "tntgun",
+    "customModelName": "Normal",
+    "name": "TNT Gun",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "Blocks.TNT"
+    },
+    "shootConstantly": false,
+    "usageCount": 550,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.TNT"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "TntGunProjectileHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "TntGunProjectileHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "TntGunProjectileHitsBlock"
+    }
+  }
+}

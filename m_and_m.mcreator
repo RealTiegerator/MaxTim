@@ -133,6 +133,53 @@
       "locked_code": false,
       "registry_name": "bronze_block",
       "path": "~/Bronze"
+    },
+    {
+      "name": "TntGunProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_gun_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/TNT Gun"
+    },
+    {
+      "name": "TntGun",
+      "type": "rangeditem",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_gun",
+      "path": "~/TNT Gun"
+    },
+    {
+      "name": "RecTntGun",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rec_tnt_gun",
+      "path": "~/TNT Gun"
     }
   ],
   "variable_elements": [],
@@ -144,6 +191,7 @@
       "item.maxandme.warhammer": "Warhammer",
       "block.m_and_m.tin_block": "Block of Tin",
       "item.m_and_m.bronze_ingot": "Bronze Ingot",
+      "item.m_and_m.tnt_gun": "TNT Gun",
       "item.maxandme.bronze_ingot": "Bronze Ingot",
       "item.m_and_m.tin_ingot": "Tin Ingot",
       "block.maxandme.bronze_block": "Bronze Block",
@@ -167,6 +215,10 @@
       },
       {
         "name": "Bronze",
+        "children": []
+      },
+      {
+        "name": "TNT Gun",
         "children": []
       }
     ]
