@@ -30,7 +30,7 @@ import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
-import net.mcreator.maxandme.init.MaxandmeModBlocks;
+import net.mcreator.maxandme.init.MAndMModBlocks;
 
 import java.util.Set;
 import java.util.Random;
@@ -43,9 +43,9 @@ public class TinOreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new TinOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("maxandme:tin_ore", FEATURE,
-				new OreConfiguration(TinOreFeatureRuleTest.INSTANCE, MaxandmeModBlocks.TIN_ORE.get().defaultBlockState(), 7));
-		PLACED_FEATURE = PlacementUtils.register("maxandme:tin_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(11), InSquarePlacement.spread(),
+		CONFIGURED_FEATURE = FeatureUtils.register("m_and_m:tin_ore", FEATURE,
+				new OreConfiguration(TinOreFeatureRuleTest.INSTANCE, MAndMModBlocks.TIN_ORE.get().defaultBlockState(), 5));
+		PLACED_FEATURE = PlacementUtils.register("m_and_m:tin_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(11), InSquarePlacement.spread(),
 				HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(63)), BiomeFilter.biome()));
 		return FEATURE;
 	}
@@ -76,7 +76,7 @@ public class TinOreFeature extends OreFeature {
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("maxandme:tin_ore_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("m_and_m:tin_ore_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;

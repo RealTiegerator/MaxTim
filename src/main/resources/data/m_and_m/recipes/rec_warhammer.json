@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "m_and_m:bronze_ingot"
+    },
+    "1": {
+      "item": "m_and_m:bronze_ingot"
+    },
+    "2": {
+      "item": "m_and_m:bronze_block"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "m_and_m:warhammer",
+    "count": 1
+  }
+}

@@ -6,11 +6,11 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
-import net.mcreator.maxandme.init.MaxandmeModTabs;
+import net.mcreator.maxandme.init.MAndMModTabs;
 
 public class TinIngotItem extends Item {
 	public TinIngotItem() {
-		super(new Item.Properties().tab(MaxandmeModTabs.TAB_TAB).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(MAndMModTabs.TAB_TAB).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

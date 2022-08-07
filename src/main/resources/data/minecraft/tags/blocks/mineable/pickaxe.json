@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "maxandme:tin_ore",
-    "maxandme:tin_block",
-    "maxandme:bronze_block"
+    "m_and_m:tin_ore",
+    "m_and_m:tin_block",
+    "m_and_m:bronze_block"
   ]
 }

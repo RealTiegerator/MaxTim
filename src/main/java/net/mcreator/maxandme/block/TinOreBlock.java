@@ -13,7 +13,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
-import net.mcreator.maxandme.init.MaxandmeModItems;
+import net.mcreator.maxandme.init.MAndMModItems;
 
 import java.util.List;
 import java.util.Collections;
@@ -40,6 +40,6 @@ public class TinOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(MaxandmeModItems.TIN_INGOT.get()));
+		return Collections.singletonList(new ItemStack(MAndMModItems.TIN_INGOT.get()));
 	}
 }

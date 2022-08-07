@@ -1,0 +1,8 @@
+{
+  "parent": "m_and_m:custom/diane_hammer",
+  "textures": {
+    "5": "m_and_m:blocks/texture1",
+    "6": "m_and_m:blocks/texture2",
+    "particle": "m_and_m:items/placeholder"
+  }
+}

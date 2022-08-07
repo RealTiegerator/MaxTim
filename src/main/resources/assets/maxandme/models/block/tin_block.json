@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "maxandme:blocks/tin_ore_block",
-    "particle": "maxandme:blocks/tin_ore_block"
-  }
-}

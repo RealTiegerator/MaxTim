@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "m_and_m:blocks/bronze_block",
+    "up": "m_and_m:blocks/bronze_block",
+    "north": "m_and_m:blocks/bronze_block",
+    "east": "m_and_m:blocks/bronze_block",
+    "south": "m_and_m:blocks/bronze_block",
+    "west": "m_and_m:blocks/bronze_block",
+    "particle": "m_and_m:blocks/bronze_block"
+  }
+}

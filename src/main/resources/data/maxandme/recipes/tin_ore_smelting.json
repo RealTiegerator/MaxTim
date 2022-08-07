@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "experience": 0.7,
-  "cookingtime": 200,
-  "ingredient": {
-    "item": "maxandme:tin_ore"
-  },
-  "result": "maxandme:tin_ingot"
-}
