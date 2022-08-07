@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:BronzeIngot"
+        "value": "CUSTOM:TinIngot"
       },
       {
-        "value": "CUSTOM:BronzeIngot"
+        "value": "CUSTOM:TinIngot"
       },
       {
-        "value": "CUSTOM:BronzeBlock"
+        "value": "CUSTOM:TinIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:TinIngot"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:TinIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:TinIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:TinIngot"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:TinIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:TinIngot"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Warhammer"
+      "value": "CUSTOM:TinBlock"
     },
-    "name": "rec_warhammer",
+    "name": "tin_ore_block_recipe",
     "namespace": "mod"
   }
 }

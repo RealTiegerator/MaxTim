@@ -2,27 +2,18 @@
   "_fv": 28,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
-    "xpReward": 0.0,
+    "recipeType": "Smelting",
+    "xpReward": 0.7,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:BronzeIngot"
-      },
-      {
-        "value": "CUSTOM:BronzeIngot"
-      },
-      {
-        "value": "CUSTOM:BronzeBlock"
-      },
-      {
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": ""
       },
       {
         "value": ""
@@ -31,16 +22,31 @@
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Warhammer"
+      "value": ""
     },
-    "name": "rec_warhammer",
+    "smeltingInputStack": {
+      "value": "CUSTOM:TinOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:TinIngot"
+    },
+    "name": "tin_ore_smelting",
     "namespace": "mod"
   }
 }

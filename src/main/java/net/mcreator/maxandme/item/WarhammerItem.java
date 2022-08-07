@@ -7,7 +7,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.maxandme.init.MaxandmeModTabs;
 
 public class WarhammerItem extends SwordItem {
 	public WarhammerItem() {
@@ -35,6 +36,6 @@ public class WarhammerItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Blocks.GOLD_BLOCK));
 			}
-		}, 3, -3.2f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 3, -3.2f, new Item.Properties().tab(MaxandmeModTabs.TAB_TAB));
 	}
 }

@@ -26,7 +26,10 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.maxandme.init.MaxandmeModTabs;
 import net.mcreator.maxandme.init.MaxandmeModItems;
+import net.mcreator.maxandme.init.MaxandmeModFeatures;
+import net.mcreator.maxandme.init.MaxandmeModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -42,10 +45,12 @@ public class MaxandmeMod {
 	private static int messageID = 0;
 
 	public MaxandmeMod() {
-
+		MaxandmeModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		MaxandmeModBlocks.REGISTRY.register(bus);
 		MaxandmeModItems.REGISTRY.register(bus);
+
+		MaxandmeModFeatures.REGISTRY.register(bus);
 
 	}
 

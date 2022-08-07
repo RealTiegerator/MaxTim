@@ -1,3 +1,9 @@
 {
-  "item.maxandme.warhammer": "Warhammer"
+  "item.maxandme.tin_ingot": "Tin Ingot",
+  "item.maxandme.warhammer": "Warhammer",
+  "block.maxandme.bronze_block": "Bronze Block",
+  "block.maxandme.tin_block": "Block of Tin",
+  "block.maxandme.tin_ore": "Tin Ore",
+  "itemGroup.tabtab": "M\u0026T Mod",
+  "item.maxandme.bronze_ingot": "Bronze Ingot"
 }

@@ -7,13 +7,13 @@
   ],
   "key": {
     "0": {
-      "item": "minecraft:gold_ingot"
+      "item": "maxandme:bronze_ingot"
     },
     "1": {
-      "item": "minecraft:gold_ingot"
+      "item": "maxandme:bronze_ingot"
     },
     "2": {
-      "item": "minecraft:gold_block"
+      "item": "maxandme:bronze_block"
     },
     "4": {
       "item": "minecraft:stick"
